@@ -1,0 +1,315 @@
+.nav .container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.nav .container i{
+    display: none;
+    color: green;
+    background: none;
+    margin-left: 20px;
+    font-size: 2rem;
+}
+.nav .container img{
+    width: 150px;
+    height: 70px;
+}
+.nav .container ul{
+    display: flex;
+    width: 70%;
+}
+.nav .container ul li{
+    list-style: none;
+    width: 12%;
+}
+.nav .container ul li a{
+    color: #ffff;
+    text-decoration: none;
+    transition: .5s ease;
+}
+.nav .container ul li a:hover{
+    color: rgb(68, 255, 47);
+}
+.nav .container .logo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.nav .container .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header .basliq .container h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3.5rem;
+}
+.header{
+    height: 300px;
+}
+@media screen and (max-width:1000px) {
+    .nav .container ul{
+        display: none;
+    }
+    .nav .container i{
+        display: block;
+    }
+    .nav{
+        background-color: #ffff;
+    }
+}
+.first .container .left{
+    width: 38%;
+    margin-top: 100px;
+}
+.img{
+    width: 150px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    height: 150px;
+    padding: 5px;
+    border: 3px solid #1ecb15;
+}
+
+.first .container .left .card1 p{
+    text-align: center;
+}
+.first .container .left .card1 h5{
+    text-align: center;
+}
+.first .container .left .card1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    background-color: #ffff;
+    box-shadow: -15px -1px 17px -13px rgba(0,0,0,0.63);
+    -webkit-box-shadow: -15px -1px 17px -13px rgba(0,0,0,0.63);
+    -moz-box-shadow: -15px -1px 17px -13px rgba(0,0,0,0.63);
+}
+.card2 ul li{
+    text-align: left;
+}
+.card2 ul li i{
+    color: #1ecb15;
+    margin-right: 9px;
+}
+.card-body .card-text{
+    color: #b7acac;
+}
+.first{
+    background-color: #f5f8fa;
+}
+.first .container{
+    display: flex;
+}
+.footer{
+    background-color: #121212;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .container .foot{
+    width: 20%;
+    margin-top: 100px;
+}
+.footer .container .foot:nth-child(1) p{
+    color: #575656;
+}
+.footer .container .foot:nth-child(1) h5{
+    color: #fff;
+}
+.footer .container .foot:nth-child(2) h5{
+    color: #fff;
+}
+.footer .container .foot:nth-child(2) ul li{
+    list-style: none;
+}
+.footer .container .foot:nth-child(2) ul li::marker{
+    content: "💚  ";
+}
+.footer .container .foot:nth-child(2) ul li a{
+    color: #ffff;
+    text-decoration: none;
+}
+.footer .container .foot:nth-child(3) h5{
+    color: white;
+}
+.footer .container .foot:nth-child(3) ul li::marker{
+    content: "💚  ";
+}
+.footer .container .foot:nth-child(3) ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer .container .foot:nth-child(4) h5{
+    color: #ffff;
+}
+.footer .foot .icon{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footer .foot .icon .icon-card i{
+    color: #ffff;
+    transition: ease .5s;
+    font-size: 1.2rem;
+}
+.footer .container{
+    flex-wrap: wrap;
+}
+.footer .foot .icon .icon-card i:hover{
+    color: #1ecb15;
+    background-color: black;
+}
+@media screen and (max-width:1400px) {
+    .first .container{
+        display: block;
+    }
+    .first .container .left{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .footer .container .foot{
+        width: 40%;
+        flex-wrap: wrap;
+    }
+    .first .container .left .card1{
+        width: 100%;
+    }
+}
+.second{
+    background-color: red;
+
+}
+.second .container .left{
+    width: 38%;
+    margin-top: 200px;
+}
+.img{
+    width: 150px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    height: 150px;
+    padding: 5px;
+    border: 3px solid #1ecb15;
+}
+.second .container .left .card1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.second .container .left .card1 p{
+    text-align: center;
+}
+.second .container .left .card1 h5{
+    text-align: center;
+}
+.second .container .left .card1{
+    width: 80%;
+    background-color: #ffff;
+    box-shadow: -15px -1px 17px -13px rgba(0,0,0,0.63);
+    -webkit-box-shadow: -15px -1px 17px -13px rgba(0,0,0,0.63);
+    -moz-box-shadow: -15px -1px 17px -13px rgba(0,0,0,0.63);
+}
+.card2 ul li{
+    text-align: left;
+}
+.card2 ul li i{
+    color: #1ecb15;
+    margin-right: 9px;
+}
+.card-body .card-text{
+    color: #b7acac;
+}
+.second{
+    background-color: #f5f8fa;
+    width: 100%;
+}
+.second .container{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    width: 100%;
+    margin-top: 200px;
+}
+.info{
+    width: 100%;
+}
+.second .right .car{
+    display: flex;
+}
+.cartt{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.cartt .cart{
+    width: 30%;
+}
+.car{
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    border-radius: 15px;
+}
+.info .p p{
+    font-size: 1.4rem;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.cartt .cart ul li{
+    list-style: none;
+    line-height: 30px;
+}
+.cartt .cart ul li a{
+    text-decoration: none;
+    color: rgb(56, 54, 54);
+}
+.cartt .cart .markk{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -10px;
+}
+.cartt .cart button{
+    border: none;
+    background-color: #1ecb15;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: -10px;
+
+}
+@media screen and (max-width:1400px) {
+    .second .container{
+        display: block;
+    }
+    .second .container .left{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .second .right .car{
+        display: block;
+    }
+    .imgg img{
+        width: 100%;
+    }
+}
+
